@@ -4,5 +4,6 @@ public class Main {
     public static void main(String[] args) {
         System.out.println("soy felipe");
         System.out.println("Soy Fernando");
+        System.out.println("A Felipe le gusta el ayudante OSKAR xd");
     }
 }
