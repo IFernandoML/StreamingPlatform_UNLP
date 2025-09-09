@@ -4,5 +4,6 @@ public class Contenido {
     String sinopsis;
     String director;
     int duracion;
+    String idiomaOriginal;
 
 }
