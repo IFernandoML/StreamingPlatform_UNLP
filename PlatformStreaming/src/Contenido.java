@@ -5,6 +5,7 @@ public class Contenido {
     String director;
     int duracion;
     String idiomaOriginal;
+    //ultimo
 
     public String getIdContenido() {
         return this.idContenido;
