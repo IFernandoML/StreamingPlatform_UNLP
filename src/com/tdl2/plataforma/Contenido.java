@@ -1,10 +1,12 @@
+package com.tdl2.plataforma;
+
 public class Contenido {
-    String idContenido;
-    String titulo;
-    String sinopsis;
-    String director;
-    int duracion;
-    String idiomaOriginal;
+    private String idContenido;
+    private String titulo;
+    private String sinopsis;
+    private String director;
+    private int duracion;
+    private String idiomaOriginal;
     //ultimo
 
     public String getIdContenido() {
