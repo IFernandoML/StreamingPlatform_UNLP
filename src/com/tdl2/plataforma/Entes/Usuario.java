@@ -1,5 +1,10 @@
 package com.tdl2.plataforma;
-
+/**
+ *Clase que representa un usuario (Abstracto)
+ *@author grupo4
+ *@version 1.0
+ *@since 12/09/2025
+ */
 public abstract class Usuario {
     private String email;
     private String contraseña;
