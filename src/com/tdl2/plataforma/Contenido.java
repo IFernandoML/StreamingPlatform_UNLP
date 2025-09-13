@@ -8,10 +8,21 @@ public class Contenido {
     private int duracion;
     private String idiomaOriginal;
     //ultimo
-
+    public Contenido(String idContenido, String titulo, String sinopsis, String director, int duracion,
+            String idiomaOriginal) {
+        this.idContenido = idContenido;
+        this.titulo = titulo;
+        this.sinopsis = sinopsis;
+        this.director = director;
+        this.duracion = duracion;
+        this.idiomaOriginal = idiomaOriginal;
+    }
+    public Contenido(){}
+    
     public String getIdContenido() {
         return this.idContenido;
     }
+
 
     public void setIdContenido(String idContenido) {
         this.idContenido = idContenido;

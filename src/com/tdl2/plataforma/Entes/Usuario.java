@@ -9,7 +9,7 @@ public abstract class Usuario {
         this.setEmail(email);
         this.activo = true;
     }
-
+    public Usuario(){}
 
     public String getEmail() { return email; }
 
